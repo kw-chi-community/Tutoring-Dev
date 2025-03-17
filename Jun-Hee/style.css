@@ -1,0 +1,57 @@
+h1{display:inline; margin-left: 25%; background-color: rgba(138, 134, 134, 0.686);
+}
+
+#hobby{
+    margin-left: 10%;
+    font-family: "Dongle", sans-serif; 
+    font-size: 40px;
+    margin-bottom: -10px;
+}
+
+#ytb{margin-left: 15%;}
+
+#mbti{
+    margin-left: 10%;
+    -webkit-text-stroke:1px #c05df1
+}
+
+#like{margin-left: 10%;}
+#like:hover{
+    margin-left: 10%;
+    display:block;
+    color:skyblue;
+    font-size: 50px;
+}
+
+
+font-face {
+    font-family: 'MYArirang-Medium';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/MYArirang-Medium.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+#hate{margin-left: 10%;}
+#hate:hover{
+    font-family: 'MYArirang-Medium', sans-serif;
+    margin-left: 10%;
+    display:block;
+    color:red;
+    font-size: 50px;
+}
+
+#study{margin-left: 10%;}
+
+#song{margin-left: 10%;}
+
+#tmi{margin-left: 10%;}
+#tmi:hover{
+    margin-left: 10%;
+    color:greenyellow;
+}
+#pic{
+    margin-left: 10%;
+}
+#pic:hover{
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
