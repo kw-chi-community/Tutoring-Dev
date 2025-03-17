@@ -1,0 +1,9 @@
+*{background-color:slategray; font-family: "IBM Plex Sans KR", sans-serif;}
+
+#name,h3,#footer,#list1,#list2{text-align: center;}
+
+header{background-color: rgba(255, 255, 255, 0.319);}
+
+.box{background-color: rgba(255, 255, 255, 0.319); border-radius: 15px; text-align: center; margin-bottom: 10px; margin-left: 150px; margin-right: 150px;}
+
+a{text-decoration: none; color:inherit;}
