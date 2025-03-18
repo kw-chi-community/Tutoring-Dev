@@ -1,0 +1,7 @@
+.box{border-radius: 15px; padding: 50px;}
+
+.title{
+    margin-left: 400px; margin-right: 400px; display: inline-block;
+}
+
+strong:hover{color: #000049;}
