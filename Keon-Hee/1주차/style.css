@@ -2,6 +2,27 @@ body {
     font-family: "Do Hyeon", sans-serif;
     font-weight: 400;
     font-style: normal;
+
+    background-color: #F5F5DC;
   }
 
-  
+footer {
+    background-color: #3b3b3b;
+    color: #F5F5DC;
+    padding-top: 2%;
+    text-align: center;
+    bottom: 0px;
+	position: absolute;
+    width: 100%;
+    height: 5rem;
+}
+
+.goHome {
+    width: 50px;
+    height: 50px;
+    background-image: url("https://cdn-icons-png.flaticon.com/512/7606/7606136.png");
+    background-size: cover;
+    background-position: center;
+    display: block;
+    margin: 0 auto;
+}
