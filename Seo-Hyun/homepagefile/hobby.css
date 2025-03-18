@@ -1,4 +1,6 @@
 body {background-color: #FFFCF5;}
-section {background-color: #374375;}
-article {background: color #babde2; ;}
-html {font-family: Verdana, Geneva, Tahoma, sans-serif;}
+article {background: color #babde2; margin-bottom: 50px;
+margin-top: 50px;}
+html {font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 50px;align-items: center;}
+
