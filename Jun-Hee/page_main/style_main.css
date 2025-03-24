@@ -1,0 +1,9 @@
+.box:hover{color :rgb(212, 64, 64);}
+
+#name{text-align: center;}
+
+#info{text-align: center; padding-bottom: 20px;}
+
+#school:hover{color: #660099;}
+
+.box{border-radius: 30px; padding: 1px; font-size: 20px; }

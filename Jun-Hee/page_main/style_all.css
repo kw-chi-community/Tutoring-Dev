@@ -1,0 +1,13 @@
+*{font-family: "IBM Plex Sans KR", sans-serif;}
+
+body{background-color: slategray;}
+
+.header{padding-bottom: 30px;}
+
+a{text-decoration: none; color: inherit;}
+
+button{border-radius: 15px; background-color: slategray;}
+
+.footer{text-align: center; padding-top: 25px;}
+
+.box{background-color: rgba(255, 255, 255, 0.319); text-align: center; margin-bottom: 30px; margin-left: 400px; margin-right: 400px; align-items: center;}
