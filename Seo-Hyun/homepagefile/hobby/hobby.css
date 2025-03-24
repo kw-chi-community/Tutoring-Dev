@@ -1,0 +1,25 @@
+body {background-color: #FFFCF5;}
+article {background: color #babde2; margin-bottom: 50px;
+margin-top: 50px;}
+html {font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 50px;align-items: center;}
+
+section {
+width: 300px;
+height:200px ;
+border: 1px solid #000;
+background-image:url(../homepagefile/IMG_6020.jpeg) ;
+background-repeat:no-repeat ;
+background-size: contain;
+background-position:center center;
+}
+
+#select {
+    width: 300px;
+    height:200px ;
+    border: 1px solid #000;
+    background-image:url(../homepagefile/IMG_6019.jpeg) ;
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-position:center center;
+    }
