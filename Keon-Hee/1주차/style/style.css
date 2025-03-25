@@ -1,0 +1,45 @@
+body {
+    font-family: "Do Hyeon", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-top: 50px;
+    background-color: #F5F5DC;
+  }
+
+footer {
+    background-color: #3b3b3b;
+    color: #F5F5DC;
+    text-align: center;
+    bottom: 0px;
+	position: absolute;
+    width: 100%;
+    height: 5rem;
+}
+
+.link {
+    color: aquamarine;
+}
+
+.link:hover {
+    color: aqua;
+    transition: 0.5s;
+}
+
+.link:visited {
+    color: rgb(179, 220, 255);
+}
+
+.goHome {
+    width: 50px;
+    height: 50px;
+    background-image: url("https://cdn-icons-png.flaticon.com/512/7606/7606136.png");
+    background-size: cover;
+    background-position: center;
+    display: block;
+    margin: 0 auto;
+    transition: transform 0.3s ease;
+}
+  
+  .goHome:hover {
+    transform: scale(1.1);
+  }

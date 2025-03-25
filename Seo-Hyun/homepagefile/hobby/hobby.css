@@ -1,0 +1,53 @@
+body {background-color: #FFFCF5;}
+article {background: color #babde2; margin-bottom: 50px;
+margin-top: 50px;
+padding:30px;}
+html {font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 50px;align-items: center;}
+
+#sport {
+    width: 300px;
+    height:300px ;
+    border: 1px solid #000;
+    background-image:url(../images/baseball.jpeg) ;
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-position:center center;
+
+}
+
+#cooking {
+    width: 300px;
+    height:200px ;
+    border: 1px solid #000;
+    background-image:url(../images/요리.gif) ;
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-position:center center;
+    }
+#reading{
+    width: 300px;
+    height:200px ;
+    border: 1px solid #000;
+    background-image:url(../images/독서.gif) ;
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-position:center center;
+
+
+
+
+
+}
+    *{box-sizing:border-box;}
+
+header{
+    background-image: url(../images/laststar.jpeg);
+    padding:50px;
+}
+a{text-decoration: none;
+    ;}
+footer{  background-image: url(../images/laststar.jpeg);
+    padding:30px;
+}
+h1{color: #FFFCF5;}
