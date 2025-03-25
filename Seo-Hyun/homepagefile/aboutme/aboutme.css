@@ -6,3 +6,5 @@ margin-bottom: 50px;margin-top: 50px; }
 
 header {background-image:url(../images/pink\ star.jpeg);
 padding: 30px;}
+
+*{box-sizing:border-box;}
