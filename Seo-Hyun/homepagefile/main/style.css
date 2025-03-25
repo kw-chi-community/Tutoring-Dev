@@ -4,3 +4,9 @@ body {background-color: #FFFCF5;}
 article {background: color #babde2; margin-bottom: 50px;margin-top: 50px;}
 
 *{box-sizing:border-box;}
+
+header{background-image: url(../images/white\ star.jpeg) ;
+    padding: 30px;}
+
+    a{text-decoration: none;
+        ;}

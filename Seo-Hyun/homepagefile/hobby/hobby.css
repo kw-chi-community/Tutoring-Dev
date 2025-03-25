@@ -25,3 +25,10 @@ background-position:center center;
     }
 
     *{box-sizing:border-box;}
+
+header{
+    background-image: url(../images/star\ background.jpeg);
+    padding:30px;
+}
+a{text-decoration: none;
+    ;}
