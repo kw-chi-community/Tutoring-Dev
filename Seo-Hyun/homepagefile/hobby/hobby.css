@@ -5,26 +5,40 @@ padding:30px;}
 html {font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 50px;align-items: center;}
 
-section {
-width: 300px;
-height:200px ;
-border: 1px solid #000;
-background-image:url(../homepagefile/IMG_6020.jpeg) ;
-background-repeat:no-repeat ;
-background-size: contain;
-background-position:center center;
-}
-
-#select {
+#sport {
     width: 300px;
     height:200px ;
     border: 1px solid #000;
-    background-image:url(../homepagefile/IMG_6019.jpeg) ;
+    background-image:url(..) ;
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-position:center center;
+
+}
+
+#cooking {
+    width: 300px;
+    height:200px ;
+    border: 1px solid #000;
+    background-image:url(../images/요리.gif) ;
     background-repeat:no-repeat ;
     background-size: cover;
     background-position:center center;
     }
+#reading{
+    width: 300px;
+    height:200px ;
+    border: 1px solid #000;
+    background-image:url(../images/독서.gif) ;
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-position:center center;
 
+
+
+
+
+}
     *{box-sizing:border-box;}
 
 header{
