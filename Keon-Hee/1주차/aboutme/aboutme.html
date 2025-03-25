@@ -4,8 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>자기소개</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="navbar.css" />
+    <link rel="stylesheet" href="../style/navbar.css" />
+    <link rel="stylesheet" href="../style/style.css" />
+    <link rel="stylesheet" href="aboutme.css" />
   </head>
   <body>
     <header>
@@ -13,36 +14,47 @@
       <img src="sajin.jpeg" alt="프로필 사진" />
       <nav>
         <ul>
-          <li><a href="aboutme.html">자기소개</a></li>
-          <li><a href="like.html">좋아하는 것</a></li>
-          <li><a href="tutor.html">튜터링</a></li>
-          <li><a href="hobby.html">취미</a></li>
-          <li><a href="call.html">연락처</a></li>
+          <li><a href="../aboutme/aboutme.html">자기소개</a></li>
+          <li><a href="../like/like.html">좋아하는 것</a></li>
+          <li><a href="../tutor/tutor.html">튜터링</a></li>
+          <li><a href="../hobby/hobby.html">취미</a></li>
+          <li><a href="../call/call.html">연락처</a></li>
         </ul>
       </nav>
     </header>
-    <ul>
-      <li>2025년 07월 24일 순천 성가롤로병원 출생</li>
-      <li>
-        학력
-        <ul>
-          <li>호원초등학교 졸업</li>
-          <li>별망중학교 졸업</li>
-          <li>초지고등학교 졸업</li>
-          <li>광운대학교 정보융합학부 재학중</li>
-        </ul>
-      </li>
-    </ul>
-    <p>
-      <a class="link git" href="https://github.com/KeonH-2">@github</a>
-      <a class="link instar" href="https://www.instagram.com/gunhee50/"
-        >@instar</a
-      >
-    </p>
+    <section class="block">
+      <ul>
+        <li>2005년 07월 24일 순천 성가롤로병원 출생</li>
+        <li>
+          학력
+          <ul>
+            <li>호원초등학교 졸업</li>
+            <li>별망중학교 졸업</li>
+            <li>초지고등학교 졸업</li>
+            <li>광운대학교 정보융합학부 재학중</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+
+    <section class="block account">
+      <p>
+        <a href="https://github.com/KeonH-2">
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/733/733553.png"
+            alt="GitHub"
+        /></a>
+        <a href="https://www.instagram.com/gunhee50/"
+          ><img
+            src="https://cdn-icons-png.flaticon.com/512/174/174855.png"
+            alt="Instagram"
+        /></a>
+      </p>
+    </section>
     <button
       type="button"
       class="goHome"
-      onclick="location.href='home.html'"
+      onclick="location.href='../home/home.html'"
     ></button>
   </body>
 </html>
