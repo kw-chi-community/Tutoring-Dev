@@ -1,6 +1,6 @@
 .box:hover{color :rgb(212, 64, 64);}
 
-#name{text-align: center;}
+#name{text-align: center; padding-top: 120px;}
 
 #info{text-align: center; padding-bottom: 20px;}
 

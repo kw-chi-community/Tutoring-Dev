@@ -1,13 +1,13 @@
 *{font-family: "IBM Plex Sans KR", sans-serif;}
 
-body{background-color: slategray;}
-
-.header{padding-bottom: 30px;}
+body{background-color: #EAD6BD;}
 
 a{text-decoration: none; color: inherit;}
 
 button{border-radius: 15px; background-color: slategray;}
 
-.footer{text-align: center; padding-top: 25px;}
+.header{padding-bottom: 50px; position: fixed; width: 100%; left:0; top: 0%; background: linear-gradient(to bottom, slategray 30%, rgba(112, 128, 144, 0)100%)}
+
+.footer{background-color: slategray; text-align: center; padding-top: 5px; position: fixed; bottom:0; left:0; width: 100%;}
 
 .box{background-color: rgba(255, 255, 255, 0.319); text-align: center; margin-bottom: 30px; margin-left: 400px; margin-right: 400px; align-items: center;}
