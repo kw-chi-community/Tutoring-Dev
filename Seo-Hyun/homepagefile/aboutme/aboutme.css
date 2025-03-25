@@ -15,3 +15,49 @@ a{text-decoration: none;
  ;}
  ul{list-style: none;}
 
+ 
+#cat {
+    width: 300px;
+    height:200px ;
+    border: 1px solid #000;
+    background-image:url(../images/고양이.gif) ;
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-position:center center;}
+#travel{
+
+    width: 300px;
+    height:200px ;
+    border: 1px solid #000;
+    background-image:url(../images/GoldenGateBridge-001.jpeg) ;
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-position:center center;
+}
+#china{
+    width: 300px;
+    height:200px ;
+    border: 1px solid #000;
+    background-image:url(../images/chinacastle.jpeg) ;
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-position:center center;
+}
+
+img{
+    width: 300px;
+    height:200px ;
+    border: 1px solid #000; 
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-position:center center;}
+
+
+#mbti{
+    width: 300px;
+    height:200px ;
+    border: 1px solid #000;
+    background-image:url(../images/intp.jpeg) ;
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-position:center center;}
