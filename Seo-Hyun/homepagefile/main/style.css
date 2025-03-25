@@ -1,12 +1,18 @@
 html {font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 50px;align-items: center;}
 body {background-color: #FFFCF5;}
-article {background: color #babde2; margin-bottom: 50px;margin-top: 50px; padding:30px}
+article {margin-bottom: 50px;margin-top: 50px; padding:30px;}
 
 *{box-sizing:border-box;}
 
-header{background-image: url(../images/white\ star.jpeg) ;
-    padding: 30px;}
+header{background-image: url(../images/pastel\ star.jpeg) ;
+    padding: 50px;
+}
 
     a{text-decoration: none;
         ;}
+
+footer{background-image: url(../images/pastel\ star.jpeg) ;
+    padding: 30px;}
+    
+h1{color:#374375}
