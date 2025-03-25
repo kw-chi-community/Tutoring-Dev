@@ -37,4 +37,9 @@ footer {
     background-position: center;
     display: block;
     margin: 0 auto;
+    transition: transform 0.3s ease;
 }
+  
+  .goHome:hover {
+    transform: scale(1.1);
+  }
