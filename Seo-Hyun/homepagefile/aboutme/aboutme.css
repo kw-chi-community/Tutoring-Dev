@@ -6,10 +6,12 @@ margin-bottom: 50px;margin-top: 50px;
 padding :30px; }
 
 header {background-image:url(../images/pink\ star.jpeg);
-padding: 30px;}
+padding: 30px;
+}
 
 *{box-sizing:border-box;}
 h1 {color:#FFFCF5;}
 a{text-decoration: none;
  ;}
+ ul{list-style: none;}
 
