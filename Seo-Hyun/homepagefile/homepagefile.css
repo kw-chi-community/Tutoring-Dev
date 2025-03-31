@@ -1,0 +1,6 @@
+html {font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 50px;align-items: center;}
+body {background-color: #FFFCF5;}
+article {margin-bottom: 50px;margin-top: 50px; padding:30px;}
+
+*{box-sizing:border-box;}
