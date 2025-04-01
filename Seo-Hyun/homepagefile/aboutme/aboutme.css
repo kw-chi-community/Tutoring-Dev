@@ -1,19 +1,12 @@
-html {font-family: Verdana, Geneva, Tahoma, sans-serif;padding: 50px;
-align-items: center;}
-body {background-color: #FFFCF5;}
-article {background: color #babde2;
-margin-bottom: 50px;margin-top: 50px;
-padding :30px; }
 
-header {background-image:url(../images/pink\ star.jpeg);
-padding: 50px;
-}
 
-*{box-sizing:border-box;}
+
+header {background-image:url(../images/pink\ star.jpeg); padding: 50px;}
+
+
 h1 {color:#FFFCF5;}
-a{text-decoration: none;
- ;}
- ul{list-style: none;}
+a{text-decoration: none;}
+ul{list-style: none;}
 
  
 #cat {
@@ -73,3 +66,9 @@ img{
 
 footer{background-image:url(../images/pink\ star.jpeg);
     padding: 30px}
+
+.wrapper {
+    display :grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 50px 50px;
+}
