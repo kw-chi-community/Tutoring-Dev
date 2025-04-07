@@ -1,5 +1,10 @@
-header h2,
 header p {
+  text-align: center;
+  padding-top: 1.5rem;
+}
+
+header h1 {
+  color: #4b3a2f;
   text-align: center;
   padding-top: 1rem;
 }
@@ -12,7 +17,7 @@ body {
   grid-template-columns: 25rem 25rem;
   grid-template-rows: 13rem 13rem;
   gap: 1.5rem;
-  padding: 13rem 0 3.5rem 0;
+  padding: 12rem 0 4.5rem 0;
   justify-content: center;
 }
 
