@@ -1,3 +1,9 @@
+header h2,
+header p {
+  text-align: center;
+  padding-top: 1rem;
+}
+
 body {
   background-color: beige;
 }
@@ -6,7 +12,7 @@ body {
   grid-template-columns: 25rem 25rem;
   grid-template-rows: 13rem 13rem;
   gap: 1.5rem;
-  padding: 13rem 0;
+  padding: 13rem 0 3.5rem 0;
   justify-content: center;
 }
 
