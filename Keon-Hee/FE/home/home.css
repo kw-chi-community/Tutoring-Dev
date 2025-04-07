@@ -1,9 +1,21 @@
+body {
+  background-color: beige;
+}
 .wrapper {
   display: grid;
-  grid-template-columns: 30rem 30rem;
-  grid-template-rows: 20rem 20rem;
+  grid-template-columns: 25rem 25rem;
+  grid-template-rows: 13rem 13rem;
+  gap: 1.5rem;
+  padding: 13rem 0;
+  justify-content: center;
 }
 
 .block {
-  background-color: beige;
+  background-color: #c9d6cc;
+  border-radius: 10% / 50%;
+  transition: 0.5s;
+}
+
+.block:hover {
+  background-color: #afbdb3;
 }
