@@ -8,7 +8,7 @@ nav {
   color: white;
   width: 100%;
   top: 0;
-  padding: 0.5rem 0;
+  padding: 0.7rem 0;
 }
 
 nav ul {
@@ -22,7 +22,7 @@ nav ul li a {
   text-decoration: none;
   font-size: 1.5rem;
   transition: 0.5s;
-  padding: 0 1.5rem;
+  padding: 0 4rem;
 }
 
 nav ul li a:hover {
