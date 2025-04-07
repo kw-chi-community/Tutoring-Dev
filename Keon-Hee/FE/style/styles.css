@@ -1,0 +1,12 @@
+* {
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  bottom: 0px;
+  width: 100%;
+  position: absolute;
+}

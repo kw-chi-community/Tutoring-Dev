@@ -1,0 +1,9 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: 30rem 30rem;
+  grid-template-rows: 20rem 20rem;
+}
+
+.block {
+  background-color: beige;
+}

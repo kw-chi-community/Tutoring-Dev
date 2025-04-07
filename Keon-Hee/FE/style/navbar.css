@@ -1,0 +1,12 @@
+nav {
+  background-color: black;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
