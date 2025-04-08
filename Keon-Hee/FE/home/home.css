@@ -1,0 +1,32 @@
+header p {
+  text-align: center;
+  padding-top: 1.5rem;
+}
+
+header h1 {
+  color: #4b3a2f;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+body {
+  background-color: beige;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: 25rem 25rem;
+  grid-template-rows: 13rem 13rem;
+  gap: 1.5rem;
+  padding: 12rem 0 4.5rem 0;
+  justify-content: center;
+}
+
+.block {
+  background-color: #c9d6cc;
+  border-radius: 10% / 50%;
+  transition: 0.5s;
+}
+
+.block:hover {
+  background-color: #afbdb3;
+}

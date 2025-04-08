@@ -1,0 +1,40 @@
+header p {
+  text-align: center;
+  padding-top: 1.5rem;
+}
+
+header h1 {
+  color: #4b3a2f;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+h2 {
+  padding-bottom: 1rem;
+}
+
+body {
+  background-color: beige;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: 23rem 23rem 23rem;
+  grid-template-rows: 15rem;
+  gap: 1.5rem;
+  padding: 12rem 0 4.5rem 0;
+  justify-content: center;
+}
+
+.block {
+  background-color: #c9d6cc;
+  border-radius: 10% / 50%;
+  transition: 0.5s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.block:hover {
+  background-color: #afbdb3;
+}
