@@ -6,4 +6,43 @@
 
 #school:hover{color: #660099;}
 
-.box{border-radius: 30px; padding: 1px; font-size: 20px; }
+.box{border-radius: 30px; padding: 1px; font-size: 20px; width: 400px;}
+
+.like, .goal, .hobby{box-shadow: 5px 5px 5px rgb(71, 69, 69);}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+.container{
+    display: grid; 
+    grid-template-rows: 1fr 1fr; 
+    grid-template-columns: 1fr 1fr;
+    width: 320px;
+    height: 320px;
+    gap: 15px;
+}
+
+.item{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+
+.grid-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.intro:active,.like:active,.goal:active,.hobby:active{
+    box-shadow: 0px 0px 0px; 
+    transform: translate(5px, 5px);
+    transition: 0.07s;
+}
