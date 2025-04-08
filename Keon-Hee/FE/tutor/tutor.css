@@ -1,0 +1,26 @@
+body {
+  background-color: beige;
+}
+
+h1 {
+  padding-left: 1rem;
+  padding-top: 1rem;
+}
+
+.wrapper {
+  display: grid;
+  padding: 200px 50px 50px 50px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 20rem;
+  grid-column-gap: 2.5%;
+  grid-row-gap: 3rem;
+}
+
+.block {
+  background-color: white;
+  border-radius: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
