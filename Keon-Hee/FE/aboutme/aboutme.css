@@ -9,34 +9,39 @@ main h1 {
   margin-bottom: 1rem;
 }
 
-main img {
-  width: 150px;
-  height: 150px;
-  object-fit: cover;
-  border-radius: 50%;
-  border: 3px solid #3b3b3b;
-  margin-bottom: 1rem;
-}
-
 body {
   background-color: beige;
 }
 
 .wrapper {
   display: grid;
-  grid-template-columns: 25rem 25rem;
+  padding: 30px;
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: 13rem 13rem;
-  gap: 1.5rem;
-  padding: 2rem 0 4.5rem 0;
-  justify-content: center;
+  grid-column-gap: 2.5%;
+  grid-row-gap: 3rem;
 }
 
 .block {
   background-color: #c9d6cc;
-  border-radius: 10% / 50%;
-  transition: 0.5s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
-.block:hover {
-  background-color: #afbdb3;
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.link {
+  width: 10rem;
+  height: 10rem;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid rgb(122, 121, 121);
+  margin-bottom: 1rem;
 }
