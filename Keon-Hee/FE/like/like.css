@@ -1,0 +1,58 @@
+body {
+  background-image: url(https://png.pngtree.com/background/20211215/original/pngtree-abstract-gradient-heart-shaped-graffiti-seamless-love-background-picture-image_1451538.jpg);
+}
+
+h1 {
+  padding-top: 2rem;
+  text-align: center;
+  color: crimson;
+  -webkit-text-stroke: 1px rgb(255, 205, 205);
+}
+
+h2 {
+  padding-bottom: 10px;
+}
+
+main {
+  padding-top: 5rem;
+}
+
+.wrapper {
+  display: grid;
+  padding: 100px 50px 50px 50px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 10rem 10rem;
+  grid-column-gap: 2.5%;
+  grid-gap: 3rem;
+  grid-template-areas: "a b c" "d e e";
+}
+
+.block {
+  background-color: pink;
+  border-radius: 10% / 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.box1 {
+  grid-area: a;
+}
+
+.box2 {
+  grid-area: b;
+}
+
+.box3 {
+  grid-area: c;
+}
+
+.box4 {
+  grid-area: d;
+}
+
+.box5 {
+  grid-area: e;
+}
