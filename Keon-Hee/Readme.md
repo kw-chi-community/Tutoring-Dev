@@ -1,8 +1,6 @@
 <div align="center">
   <h1>안녕하세요! 👋 저는 김건희입니다.<img height="40" src="https://emoji.gg/assets/emoji/7333-parrotdance.gif"></h1>
   <p>🎓 광운대학교 정보융합학부 | 🚀 열심히 공부하는 중</p>
-  ![link](https://klas.kw.ac.kr/)
-
 </div>
 ## ✨ About Me
 
