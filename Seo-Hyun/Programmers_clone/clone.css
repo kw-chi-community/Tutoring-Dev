@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 1200px;
+    font-family: "Noto Sans KR", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+   
+}
+
+.header {
+    background-color: blanchedalmond;
+    height: 80px;
+    margin-bottom: 20px;
+    padding: 20px 40px;
+}
+.mainbanner{
+    background-color:brown;
+    height: 400px ;
+    margin-bottom: 40px;
+    padding: 60px 40px;
+}
+.features{
+    background-color: black;
+    height: 65px;
+    padding: 16px 24px;
+}
+.section{
+    background-color:aquamarine;
+    height: 120px;
+    margin-bottom: 40px;
+    padding: 20px 40px;
+}
+.footer{
+    background-color:blueviolet;
+    height: 200px;
+    margin-top: 80px;
+    padding: 40px 20px;
+}
