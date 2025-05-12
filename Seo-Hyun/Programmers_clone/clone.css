@@ -2,7 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0 auto;
-    max-width: 1200px;
+    max-width:auto;
     font-family: "Noto Sans KR", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
@@ -10,31 +10,45 @@
 }
 
 .header {
-    background-color: blanchedalmond;
-    height: 80px;
-    margin-bottom: 20px;
+    background-color:white;
+    height: 65px;
     padding: 20px 40px;
 }
+.header span{
+    padding-right: 20px;
+
+}
 .mainbanner{
-    background-color:brown;
-    height: 400px ;
-    margin-bottom: 40px;
+    background-image: url("https://t1.daumcdn.net/cfile/tistory/24E61F335966F29A15");
+    background-size: cover;
+    height: 430px ;
     padding: 60px 40px;
 }
-.features{
-    background-color: black;
-    height: 65px;
+.features {
+    background-color:bisque;
+    height: px;
     padding: 16px 24px;
 }
+.button {
+    background-color: #ffffff;
+    padding:8px 15px 8px 15px;
+    height: auto;
+    min-width: 100px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size: 12px;
+    color:#969696;
+    font-weight: 700;
+    border: 1px solid #dcdcdc;
+}
+
 .section{
     background-color:aquamarine;
     height: 120px;
-    margin-bottom: 40px;
     padding: 20px 40px;
 }
 .footer{
     background-color:blueviolet;
     height: 200px;
-    margin-top: 80px;
     padding: 40px 20px;
 }
